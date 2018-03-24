@@ -11,6 +11,9 @@
   </thead>
 
   <tbody>
+
+    <h1>Index of Topics</h1>
+
     <% @topics.each do |topic| %>
       <tr>
         <td><%= link_to topic.title, topic_path(topic) %></td>
